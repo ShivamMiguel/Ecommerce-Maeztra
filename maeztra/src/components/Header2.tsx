@@ -1,17 +1,19 @@
-import { User,Heart, Handbag } from "phosphor-react";
+import { Handbag, Heart, User } from "phosphor-react";
+
 import Logo from "./Logo";
 
 function Header2 (){
     return(
-        <div className=" w-[100%] h-[88px] bg-white-900 flex justify-around items-center">
-            <div >
-                <Logo/>
+        <div id="Header2" className="  w-full   h-[88px] bg-white-900 mt-[-20px]  flex  justify-around items-center ">
+            
+            <div>
+               <img src="https://i.ibb.co/StZVfCx/logo-maeztra-novo.png" alt="" />
             </div>
 
           
             <div className="flex justify-center items-center">
 
-                  <input className="  w-[500px] h-[40px] rounde-[10px] rounded-[10px] bg-white-700" type="search" name="" id="" placeholder="O que voce busca"/>
+                  <input className="  px-[24px] text-black-700  w-[500px] h-[40px] rounde-[10px] rounded-[10px] bg-white-700"  type="search" name="" id="" placeholder="O que voce busca?"/>
             <button className="bg-yellow-900 w-[128px] h-[40px] rounded-lg ml-[-14px] ">buscar</button>
 
 

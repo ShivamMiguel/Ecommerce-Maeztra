@@ -5,6 +5,7 @@ import App from './App'
 
 
 import './styles/global.css'
+import './styles/styleHeader2.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
